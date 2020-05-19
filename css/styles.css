@@ -4,12 +4,9 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
-    margin: 80px;
-}
-
 main {
-    display: block
+    display: block;
+    margin: 80px;
 }
 
 hr {
@@ -144,7 +141,7 @@ header {
     font-family: Helvetica;
     color: #000000;
     font-size: 30px;
-    padding-top: 5px;
+    padding-top: 0px;
     padding-bottom: 1000px;
 }
 
@@ -153,20 +150,31 @@ main {
     font-family: Helvetica;
     color: #000000;
     font-size: 30px;
+    margin: 80px;
 }
 
 footer {
     font-family: Helvetica;
-    font-size: 30px;
-    padding: 10px;
     text-align: center;
-    color: white;
+    color: #F8F8FF;
+    padding: 50px;
+    background-color: #000000;
+    margin: none;
 }
 
 .navbar {
     font-family: Helvetica;
     color: #000000;
-    font-size: 55% padding: 20px;
+    font-size: 85%;
+    padding: 35px;
+    text-align: center;
+    background-color: white;
+}
+
+a {
+    font-family: Helvetica, bolder;
+    font-size: 85%;
+    color: #000000;
 }
 
 p {
@@ -181,8 +189,26 @@ h1 {
     font-size: 100px
 }
 
-h2, h3 {
+h2, {
     font-family: Helvetica;
     color: #000000;
     font-size: 55px
+}
+
+h3 {
+    font-family: Helvetica;
+    color: #000000;
+    font-size: 5px
+}
+
+h4 {
+    font-family: Helvetica;
+    color: #F8F8FF;
+    font-size: 15px
+}
+
+.Photo-paysage {
+    margin: 0px;
+    max-width: 500px;
+    max-height: 600px;
 }
