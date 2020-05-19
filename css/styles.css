@@ -5,16 +5,11 @@ html {
 }
 
 body {
-    margin: 0
+    margin: 80px;
 }
 
 main {
     display: block
-}
-
-h1 {
-    font-size: 2em;
-    margin: 0.67em 0
 }
 
 hr {
@@ -22,14 +17,7 @@ hr {
     height: 0;
     overflow: visible
 }
-
-pre {
-    font-family: monospace, monospace;
-    font-size: 1em
 }
-
-a {
-    background-color: transparent
 }
 
 abbr[title] {
@@ -45,11 +33,11 @@ b, strong {
 
 code, kbd, samp {
     font-family: monospace, monospace;
-    font-size: 1em
+    font-size: 1em;
 }
 
 small {
-    font-size: 80%
+    font-size: 80%;
 }
 
 sub, sup {
@@ -101,15 +89,6 @@ button, select {
 
 fieldset {
     padding: 0.35em 0.75em 0.625em
-}
-
-legend {
-    box-sizing: border-box;
-    color: inherit;
-    display: table;
-    max-width: 100%;
-    padding: 0;
-    white-space: normal
 }
 
 progress {
@@ -166,45 +145,43 @@ header {
     color: #000000;
     font-size: 30px;
     padding-top: 5px;
-    padding-bottom: 700px;
-    margin-left: 55px;
-    margin-right: 55px
+    padding-bottom: 1000px;
 }
 
 main {
-    height: calc(100vh - 100px * 2);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
     align-items: center;
-    grid-gap: 1rem;
     font-family: Helvetica;
     color: #000000;
     font-size: 30px;
-    margin-left: 55px;
-    margin-right: 55px
 }
 
 footer {
     font-family: Helvetica;
     font-size: 30px;
-    color: #000000;
-    padding-top: 2500px;
+    padding: 10px;
+    text-align: center;
+    color: white;
 }
 
 .navbar {
     font-family: Helvetica;
     color: #000000;
-    font-size: 55%
+    font-size: 55% padding: 20px;
 }
 
 p {
     font-family: Helvetica;
     color: #000000;
-    font-size: 55%
+    font-size: 85%
 }
 
-h1, h2, h3 {
+h1 {
+    font-family: Helvetica;
+    color: #000000;
+    font-size: 100px
+}
+
+h2, h3 {
     font-family: Helvetica;
     color: #000000;
     font-size: 55px

@@ -6,8 +6,9 @@ header {
 	height: 100px;
 	width: 100%;
 	font-family: Helvetica;
+	font-style: oblique;
 	color: #000000;
-	font-size: 30px;
+	font-size: 800px;
 	padding-top: 5px;
 	padding-bottom: 700px;
 	margin-left: 55px;
@@ -15,44 +16,40 @@ header {
 }
 
 main {
-	// ON PEUT CALCULER DES CHOSES EN PURE CSS
-	height: calc(100vh - 100px * 2);
-	// GRID SETTINGS
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-	justify-items: center;
+	width: 75%;
+	float: left;
+	font-family: Helvetica;
+	color: #000000;
 	align-items: center;
-	grid-gap: 1rem;
-	font-family: Helvetica;
-	color: #000000;
 	font-size: 30px;
-	margin-left: 55px;
-	margin-right: 55px;
-}
 
-footer {
-	font-family: Helvetica;
-	font-size: 30px;
-	color: #000000;
-	padding-top: 555px;
-}
+	.row {}
 
-.navbar {
-	font-family: Helvetica;
-	color: #000000;
-	font-size: 55%;
-}
+	footer {
+		font-family: Helvetica;
+		font-size: 30px;
+		color: #000000;
+		text-align: center;
+	}
 
-p {
-	font-family: Helvetica;
-	color: #000000;
-	font-size: 55%;
-}
+	.navbar {
+		font-family: Helvetica;
+		color: #000000;
+		text-align: center;
+	}
 
-h1,
-h2,
-h3 {
-	font-family: Helvetica;
-	color: #000000;
-	font-size: 555pxx;
-}
+	p {
+		font-family: Helvetica;
+		color: #000000;
+		font-size: 100%;
+		text-align: center;
+	}
+
+	h1,
+	h2,
+	h3 {
+		font-family: Helvetica;
+		color: #000000;
+		font-size: 800px;
+		text-align: center;
+	}
