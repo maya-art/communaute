@@ -14,42 +14,57 @@ header {
 	margin-left: 55px;
 	margin-right: 55px;
 }
+//main {
+//width: 75%;
+//	float: left;
+//	font-family: Helvetica;
+//	color: #000000;
+//	align-items: center;
+//	font-size: 30px;
 
 main {
-	width: 75%;
-	float: left;
+	// ON PEUT CALCULER DES CHOSES EN PURE CSS
+	height: calc(100vh - 100px * 2);
+	// GRID SETTINGS
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items: center;
+	align-items: center;
+	grid-gap: 1rem;
 	font-family: Helvetica;
 	color: #000000;
-	align-items: center;
 	font-size: 30px;
+	margin-left: 55px;
+	margin-right: 55px;
+}
 
-	.row {}
+.row {}
 
-	footer {
-		font-family: Helvetica;
-		font-size: 30px;
-		color: #000000;
-		text-align: center;
-	}
+footer {
+	font-family: Helvetica;
+	font-size: 30px;
+	color: #ffff;
+	text-align: center;
+}
 
-	.navbar {
-		font-family: Helvetica;
-		color: #000000;
-		text-align: center;
-	}
+.navbar {
+	font-family: Helvetica;
+	color: #000000;
+	text-align: center;
+}
 
-	p {
-		font-family: Helvetica;
-		color: #000000;
-		font-size: 100%;
-		text-align: center;
-	}
+p {
+	font-family: Helvetica;
+	color: #000000;
+	font-size: 100%;
+	text-align: center;
+}
 
-	h1,
-	h2,
-	h3 {
-		font-family: Helvetica;
-		color: #000000;
-		font-size: 800px;
-		text-align: center;
-	}
+h1,
+h2,
+h3 {
+	font-family: Helvetica;
+	color: #000000;
+	font-size: 800px;
+	text-align: center;
+}

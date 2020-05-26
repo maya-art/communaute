@@ -135,6 +135,18 @@ template {
     display: none
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    display: table;
+    clear: both;
+}
+
 header {
     height: 100px;
     width: 100%;
@@ -142,15 +154,28 @@ header {
     color: #000000;
     font-size: 30px;
     padding-top: 0px;
-    padding-bottom: 1000px;
+    padding-bottom: 1200px;
+}
+
+.texte-presentation {
+    text-align: left;
+    margin: 80px;
 }
 
 main {
+    // ON PEUT CALCULER DES CHOSES EN PURE CSS
+    height: calc(100vh - 100px * 2);
+    // GRID SETTINGS
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
     align-items: center;
+    grid-gap: 1rem;
     font-family: Helvetica;
     color: #000000;
     font-size: 30px;
-    margin: 80px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 footer {
