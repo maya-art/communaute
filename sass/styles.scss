@@ -8,21 +8,15 @@ header {
 	font-family: Helvetica;
 	font-style: oblique;
 	color: #000000;
-	font-size: 800px;
+	font-size: 100%;
 	padding-top: 5px;
 	padding-bottom: 700px;
 	margin-left: 55px;
 	margin-right: 55px;
 }
-//main {
-//width: 75%;
-//	float: left;
-//	font-family: Helvetica;
-//	color: #000000;
-//	align-items: center;
-//	font-size: 30px;
 
 main {
+	background: rgba(255, 255, 255);
 	// ON PEUT CALCULER DES CHOSES EN PURE CSS
 	height: calc(100vh - 100px * 2);
 	// GRID SETTINGS
@@ -31,40 +25,61 @@ main {
 	justify-items: center;
 	align-items: center;
 	grid-gap: 1rem;
-	font-family: Helvetica;
-	color: #000000;
-	font-size: 30px;
-	margin-left: 55px;
-	margin-right: 55px;
 }
 
-.row {}
-
-footer {
-	font-family: Helvetica;
-	font-size: 30px;
-	color: #ffff;
-	text-align: center;
+.image-section {
+	padding: 1rem;
 }
 
-.navbar {
-	font-family: Helvetica;
-	color: #000000;
-	text-align: center;
+.image-section img {
+	width: 100%;
 }
 
-p {
-	font-family: Helvetica;
-	color: #000000;
-	font-size: 100%;
-	text-align: center;
-}
+.text-section {
+	padding: 1rem;
 
-h1,
-h2,
-h3 {
-	font-family: Helvetica;
-	color: #000000;
-	font-size: 800px;
-	text-align: center;
-}
+	.row {}
+
+	footer {
+		font-family: Helvetica;
+		font-size: 30px;
+		color: #ffff;
+		text-align: center;
+	}
+
+	.navbar {
+		font-family: Helvetica;
+		color: #000000;
+		text-align: center;
+	}
+
+	p {
+		font-family: Helvetica;
+		color: #000000;
+		font-size: 85%;
+	}
+
+	h1 {
+		font-family: Helvetica;
+		color: #000000;
+		font-size: 900px;
+	}
+
+	,
+	h2 {
+		font-family: Helvetica;
+		color: #000000;
+		font-size: 55px;
+	}
+
+	h3 {
+		font-family: Helvetica;
+		color: #000000;
+		font-size: 5px;
+	}
+
+	h4 {
+		font-family: Helvetica;
+		color: #F8F8FF;
+		font-size: 15px;
+	}

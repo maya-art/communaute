@@ -152,9 +152,9 @@ header {
     width: 100%;
     font-family: Helvetica;
     color: #000000;
-    font-size: 30px;
     padding-top: 0px;
-    padding-bottom: 1200px;
+    padding-bottom: 1500px;
+    font-size: 50px;
 }
 
 .texte-presentation {
@@ -176,6 +176,7 @@ main {
     font-size: 30px;
     margin-left: 55px;
     margin-right: 55px;
+    display: block;
 }
 
 footer {
@@ -196,44 +197,67 @@ footer {
     background-color: white;
 }
 
-a {
-    font-family: Helvetica, bolder;
-    font-size: 85%;
-    color: #000000;
+main {
+    background: rgba(255, 255, 255);
+    // ON PEUT CALCULER DES CHOSES EN PURE CSS
+    height: calc(100vh - 100px * 2);
+    // GRID SETTINGS
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    grid-gap: 1rem;
 }
 
-p {
-    font-family: Helvetica;
-    color: #000000;
-    font-size: 85%
+.image-section {
+    padding: 1rem;
 }
 
-h1 {
-    font-family: Helvetica;
-    color: #000000;
-    font-size: 100px
+.image-section img {
+    width: 100%;
 }
 
-h2, {
-    font-family: Helvetica;
-    color: #000000;
-    font-size: 55px
-}
+.text-section {
+    padding: 1rem;
 
-h3 {
-    font-family: Helvetica;
-    color: #000000;
-    font-size: 5px
-}
+    a {
+        font-family: Helvetica, bolder;
+        font-size: 85%;
+        color: #000000;
+    }
 
-h4 {
-    font-family: Helvetica;
-    color: #F8F8FF;
-    font-size: 15px
-}
+    p {
+        font-family: Helvetica;
+        color: #000000;
+        font-size: 100PX
+    }
 
-.Photo-paysage {
-    margin: 0px;
-    max-width: 500px;
-    max-height: 600px;
-}
+    h1 {
+        font-family: Helvetica;
+        color: #000000;
+        font-size: 900px
+    }
+
+    h2, {
+        font-family: Helvetica;
+        color: #000000;
+        font-size: 55px
+    }
+
+    h3 {
+        font-family: Helvetica;
+        color: #000000;
+        font-size: 5px
+    }
+
+    h4 {
+        font-family: Helvetica;
+        color: #F8F8FF;
+        font-size: 15px
+    }
+
+    .Photo-paysage {
+        margin: 0px;
+        max-width: 500px;
+        max-height: 600px;
+    }
